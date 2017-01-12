@@ -6,6 +6,9 @@ var app     = express();
 app.set('view engine', 'hbs');
 app.set('views', './views')
 
+// Middleware
+app.use(express.static(__dirname + '/public'));
+
 app.get('/', (req, res) => {
   res.render('app-welcome');
 });
