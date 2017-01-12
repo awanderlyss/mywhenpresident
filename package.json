@@ -1,0 +1,24 @@
+{
+  "name": "mywhenpresident",
+  "version": "1.0.0",
+  "description": "GA Walkthrough ME(A)N app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/awanderlyss/mywhenpresident.git"
+  },
+  "keywords": [],
+  "author": "Alyssa Felix",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/awanderlyss/mywhenpresident/issues"
+  },
+  "homepage": "https://github.com/awanderlyss/mywhenpresident#readme",
+  "dependencies": {
+    "express": "^4.14.0",
+    "hbs": "^4.0.1"
+  }
+}
