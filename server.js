@@ -19,7 +19,13 @@ app.get('/', (req, res) => {
 // Index
 app.get('/candidates', (req, res) => {
   res.render('candidates-index', {
-    candidates: db.candidates
+    candidates: db.candidates // array of all candidates
+  });
+});
+// Show
+app.get('/candidates/:index', (req, res) => {
+  res.render('candidates-show', {
+    candidate: db.candidates[req.params.index]
   });
 });
 
