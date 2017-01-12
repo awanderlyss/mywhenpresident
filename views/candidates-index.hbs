@@ -1,1 +1,5 @@
-<h2>{{numCandidates}} Candidates!</h2>
+<h2>{{candidates.length}} Candidates!</h2>
+
+{{#each candidates as |candidate|}}
+  <h4>{{candidate.name}} for president in {{candidate.year}}</h4>
+{{/each}}
