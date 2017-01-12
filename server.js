@@ -7,7 +7,7 @@ app.set('view engine', 'hbs');
 app.set('views', './views')
 
 app.get('/', (req, res) => {
-  res.send('Hello, World!');
+  res.render('app-welcome');
 });
 
 app.listen(3001, () => {
